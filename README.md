@@ -6,8 +6,8 @@
 [![PyPI version](https://badge.fury.io/py/pyrender.svg)](https://badge.fury.io/py/pyrender)
 [![Downloads](https://pepy.tech/badge/pyrender)](https://pepy.tech/project/pyrender)
 
-Pyrender is a pure Python (2.7, 3.4, 3.5, 3.6) library for physically-based
-rendering and visualization.
+PyrenderEX is a pure Python (2.7, 3.4, 3.5, 3.6) library for physically-based
+rendering and visualization, which is built upon pyrender. The code structures are heavily borrowed from THREE.js
 It is designed to meet the [glTF 2.0 specification from Khronos](https://www.khronos.org/gltf/).
 
 Pyrender is lightweight, easy to install, and simple to use.

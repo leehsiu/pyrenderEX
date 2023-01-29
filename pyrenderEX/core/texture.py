@@ -7,7 +7,7 @@ import numpy as np
 
 from OpenGL.GL import *
 
-from .utils import format_texture_source
+from ..utils import format_texture_source
 from .sampler import Sampler
 
 

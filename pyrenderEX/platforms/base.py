@@ -1,10 +1,6 @@
 import abc
 
-import six
-
-
-@six.add_metaclass(abc.ABCMeta)
-class Platform(object):
+class Platform(abc.ABC):
     """Base class for all OpenGL platforms.
 
     Parameters

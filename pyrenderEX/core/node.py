@@ -7,7 +7,7 @@ import numpy as np
 
 import trimesh.transformations as transformations
 
-from .camera import Camera
+from ..camera.camera import Camera
 from .mesh import Mesh
 from .light import Light
 

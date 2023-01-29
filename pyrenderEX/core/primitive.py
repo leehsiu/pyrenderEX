@@ -9,7 +9,7 @@ from OpenGL.GL import *
 
 from .material import Material, MetallicRoughnessMaterial
 from .constants import FLOAT_SZ, UINT_SZ, BufFlags, GLTF
-from .utils import format_color_array
+from ..utils import format_color_array
 
 
 class Primitive(object):

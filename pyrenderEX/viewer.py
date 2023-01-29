@@ -19,16 +19,16 @@ except Exception:
     except Exception:
         pass
 
-from .constants import (TARGET_OPEN_GL_MAJOR, TARGET_OPEN_GL_MINOR,
+from .core.constants import (TARGET_OPEN_GL_MAJOR, TARGET_OPEN_GL_MINOR,
                         MIN_OPEN_GL_MAJOR, MIN_OPEN_GL_MINOR,
                         TEXT_PADDING, DEFAULT_SCENE_SCALE,
                         DEFAULT_Z_FAR, DEFAULT_Z_NEAR, RenderFlags, TextAlign)
-from .light import DirectionalLight
-from .node import Node
-from .camera import PerspectiveCamera, OrthographicCamera, IntrinsicsCamera
-from .trackball import Trackball
+from .core.light import DirectionalLight
+from .core.node import Node
+from .camera.camera import PerspectiveCamera, OrthographicCamera, IntrinsicsCamera
+from .controls.trackball import Trackball
 from .renderer import Renderer
-from .mesh import Mesh
+from .core.mesh import Mesh
 
 import pyglet
 from pyglet import clock

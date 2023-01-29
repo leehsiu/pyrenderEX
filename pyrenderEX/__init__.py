@@ -1,18 +1,18 @@
-from .camera import (Camera, PerspectiveCamera, OrthographicCamera,
+from .camera.camera import (Camera, PerspectiveCamera, OrthographicCamera,
                      IntrinsicsCamera)
-from .light import Light, PointLight, DirectionalLight, SpotLight
-from .sampler import Sampler
-from .texture import Texture
-from .material import Material, MetallicRoughnessMaterial
-from .primitive import Primitive
-from .mesh import Mesh
-from .node import Node
-from .scene import Scene
+from .core.light import Light, PointLight, DirectionalLight, SpotLight
+from .core.sampler import Sampler
+from .core.texture import Texture
+from .core.material import Material, MetallicRoughnessMaterial
+from .core.primitive import Primitive
+from .core.mesh import Mesh
+from .core.node import Node
+from .core.scene import Scene
 from .renderer import Renderer
 from .viewer import Viewer
 from .offscreen import OffscreenRenderer
 from .version import __version__
-from .constants import RenderFlags, TextAlign, GLTF
+from .core.constants import RenderFlags, TextAlign, GLTF
 
 __all__ = [
     'Camera', 'PerspectiveCamera', 'OrthographicCamera', 'IntrinsicsCamera',

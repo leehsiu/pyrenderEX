@@ -1,12 +1,10 @@
 """Examples of using pyrender for viewing and offscreen rendering.
 """
-import pyglet
-pyglet.options['shadow_window'] = False
 import os
 import numpy as np
 import trimesh
 
-from pyrender import PerspectiveCamera,\
+from pyrenderEX import PerspectiveCamera,\
                      DirectionalLight, SpotLight, PointLight,\
                      MetallicRoughnessMaterial,\
                      Primitive, Mesh, Node, Scene,\

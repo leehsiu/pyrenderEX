@@ -9,10 +9,10 @@ import six
 
 from OpenGL.GL import *
 
-from .utils import format_color_vector
+from ..utils import format_color_vector
 from .texture import Texture
 from .constants import SHADOW_TEX_SZ
-from .camera import OrthographicCamera, PerspectiveCamera
+from ..camera.camera import OrthographicCamera, PerspectiveCamera
 
 
 

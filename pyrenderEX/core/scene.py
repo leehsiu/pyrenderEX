@@ -8,10 +8,10 @@ import networkx as nx
 import trimesh
 
 from .mesh import Mesh
-from .camera import Camera
+from ..camera.camera import Camera
 from .light import Light, PointLight, DirectionalLight, SpotLight
 from .node import Node
-from .utils import format_color_vector
+from ..utils import format_color_vector
 
 
 class Scene(object):
